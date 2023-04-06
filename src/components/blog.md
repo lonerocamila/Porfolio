@@ -6,7 +6,7 @@ As a frontend developer, it's important to have the right tools and libraries to
 
 <p>
 <ul>
-Famous tools and Libraries:
+<h3>Famous tools and Libraries:</h3>
 <li>React: React is a popular JavaScript library for building user interfaces. It's easy to learn and use, and it's highly adaptable to a wide variety of projects. React's modular approach allows developers to build complex UIs with ease, and its virtual DOM enables efficient updates to the UI.</li>
 <li>Angular: Angular is a powerful JavaScript framework for building web applications. It's highly modular and provides a wide range of features, such as dependency injection, declarative templates, and component-based architecture. Angular is also backed by Google, which provides a large community and excellent support.</li>
 <li>Vue.js: Vue.js is a lightweight JavaScript framework for building user interfaces. It's easy to learn and use, and it provides features such as reactive data binding, templates, and components. Vue.js is highly customizable and can be integrated into existing projects.</li>
