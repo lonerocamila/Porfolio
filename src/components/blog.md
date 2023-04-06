@@ -13,18 +13,20 @@ Famous tools and Libraries:
 <li>Bootstrap: Bootstrap is a popular CSS framework for building responsive and mobile-first web projects. It provides a wide range of pre-built components and styles, making it easy to create a consistent and professional-looking UI. Bootstrap also has excellent documentation and a large community, which makes it easy to learn and use.</li>
 <li>Sass: Sass is a CSS preprocessor that makes it easy to write maintainable and scalable stylesheets. It provides features such as variables, mixins, and nesting, which allow developers to write CSS more efficiently. Sass also provides a variety of tools for working with CSS, such as minification and source maps.</li>
 
+
 Another tools and libraries are:
-Luxon: A library for working with dates and times in JavaScript. It provides a variety of features, including parsing, formatting, and manipulation of dates and times, and it's highly customizable and extensible.
-
-Scrollama: A JavaScript library for creating scroll-driven animations and interactions. It provides a variety of features, including triggering animations based on scroll position, pinning elements in place, and more.
-
-ImgBB: A website to upload and create links for images what are in your page. 
-
- Materialize: is a modern responsive CSS framework based on Material Design by Google.
-
- React Icons: Include popular icons in your React projects easily with react-icons, which utilizes ES6 imports that allows you to include only the icons that your project is using.
-
- Uiball: You will find f ree loaders & spinners for your next project. Built with HTML, CSS and a soupçon of SVG.
+<li>
+Luxon: A library for working with dates and times in JavaScript. It provides a variety of features, including parsing, formatting, and manipulation of dates and times, and it's highly customizable and extensible.</li>
+<li>
+Scrollama: A JavaScript library for creating scroll-driven animations and interactions. It provides a variety of features, including triggering animations based on scroll position, pinning elements in place, and more.</li>
+<li>
+ImgBB: A website to upload and create links for images what are in your page. </li>
+<li>
+Materialize: is a modern responsive CSS framework based on Material Design by Google.</li>
+<li>
+React Icons: Include popular icons in your React projects easily with react-icons, which utilizes ES6 imports that allows you to include only the icons that your project is using.</li>
+<li>
+ Uiball: You will find f ree loaders & spinners for your next project. Built with HTML, CSS and a soupçon of SVG.</li>
 </ul>
 
 
