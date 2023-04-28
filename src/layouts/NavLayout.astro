@@ -1,0 +1,75 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<body>
+   <Layout title="main">
+    <nav class="nav">
+        <img class="logo" src="./public/img/L.png" alt="logo">
+        <ul>
+			<li>
+				<a href="./projects">Projects</a>
+			</li>
+            <li>
+				<a href="./AboutMe">Skills</a>
+			</li>
+			<li>
+				<a href="./AboutMe">About</a>
+			</li>
+            <li>
+				<a href="https://www.linkedin.com/in/camila-lo-nero-09bbaa1b8/"  target="_blank">Linkedin</a>
+			</li>
+            <li>
+				<a href="https://github.com/lonerocamila" target="_blank">Github</a>
+			</li>
+		</ul>
+		
+    </nav>
+    </Layout>
+
+    <slot/>
+
+</body>
+
+
+<style>
+    *{
+        color: whitesmoke;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: 800;
+        font-style:initial;
+    }
+    .nav{
+        align-content: center;
+        align-items: center;
+        display: flex;
+        padding: auto;
+        margin: 15px;
+    }
+     li{
+        display: flex;
+        margin: 20px;
+        padding: 20px;
+        left: 30%;
+        list-style: none;
+    }
+    ul{
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+    }
+    ul a{ 
+
+        justify-items: center;
+        text-decoration: none;
+
+    }
+    .logo{
+        padding: 5x;
+        margin: 5px;
+        width: 7rem;
+        display: flex;
+        flex-direction: column;
+    }
+    
+</style>

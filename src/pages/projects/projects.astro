@@ -1,0 +1,52 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Footer from "../../components/Footer.astro";
+import Card from "../../components/Card.astro";
+---
+
+<Layout title="layout">
+    <body>
+        <main>
+       <h1>My Projects</h1>
+
+
+
+      
+
+        </main>
+
+
+     <Footer/>
+    </body>
+
+</Layout>  
+<style>
+    main {
+		margin: auto;
+		padding: 1.5rem;
+		max-width: 60ch;
+	}
+    h1{
+        padding: 2rem;
+        text-align: center;
+    }
+    .text-gradient {
+		background-image: var(--accent-gradient);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-size: 400%;
+		background-position: 0%;
+	}
+    .projects{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        font-weight: 700;
+    }
+</style>
+
+
+
+
