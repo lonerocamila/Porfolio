@@ -4,10 +4,10 @@ import Layout from '../layouts/Layout.astro';
 <body>
    <Layout title="main">
     <nav class="nav">
-        <img class="logo" src="./public/img/L.png" alt="logo">
+      <a href="#"><img class="logo" src="./public/img/L.png" alt="logo"></a>  
         <ul>
 			<li>
-				<a href="./projects">Projects</a>
+				<a href="./pages/projects/projects.astro">Projects</a>
 			</li>
             <li>
 				<a href="./AboutMe">Skills</a>
@@ -32,44 +32,41 @@ import Layout from '../layouts/Layout.astro';
 
 
 <style>
-    *{
-        color: whitesmoke;
-        font-family:Arial, Helvetica, sans-serif;
-        font-weight: 800;
-        font-style:initial;
-    }
-    .nav{
-        align-content: center;
-        align-items: center;
-        display: flex;
-        padding: auto;
-        margin: 15px;
-    }
-     li{
-        display: flex;
-        margin: 20px;
-        padding: 20px;
-        left: 30%;
-        list-style: none;
-    }
-    ul{
-        display: flex;
-        justify-content: space-between;
-        align-content: center;
-        align-items: center;
-    }
-    ul a{ 
+    /* Style the navigation bar */
 
-        justify-items: center;
-        text-decoration: none;
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem;
+      box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+    }
 
+    .nav .logo {
+      width: 50px;
+      height: 50px;
     }
-    .logo{
-        padding: 5x;
-        margin: 5px;
-        width: 7rem;
-        display: flex;
-        flex-direction: column;
+
+    .nav ul {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
     }
-    
+
+    .nav li {
+      margin-left: 1rem;
+    }
+
+    .nav a {
+      text-decoration: none;
+      color: whitesmoke;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    .nav a:hover {
+      color: #357dc9;
+    }
+
 </style>
